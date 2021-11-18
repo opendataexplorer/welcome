@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the source code for the welcome page. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can work on the development by forking, cloning the repo, and installing dependencies. 
 
 ## Available Scripts
 
