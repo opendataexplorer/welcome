@@ -1,0 +1,1 @@
+export const H1 = props => <h1 className="text-5xl" {...props} />
