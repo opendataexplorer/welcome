@@ -23,7 +23,7 @@ export default function NavBar() {
         </button>
       </div>
       <div className={`md:flex ${menu && "hidden"}`}>
-        <a
+        {/* <a
           href="https://github.com/opendataexplorer"
           target="_blank"
           className="hover:text-gray-500 md:px-2 block"
@@ -44,7 +44,7 @@ export default function NavBar() {
           onClick={handleCloseMenu}
         >
           Team
-        </Link>
+        </Link> */}
         <Link
           to="/joinus"
           className="hover:text-gray-500 md:px-2 block"
@@ -52,16 +52,17 @@ export default function NavBar() {
         >
           Join Us
         </Link>
-        <Link
+        {/* <Link
           to="/joinus"
           className="hover:text-gray-500 md:px-2 block"
           onClick={handleCloseMenu}
         >
           News
-        </Link>
+        </Link> */}
         <a
           href="https://github.com/opendataexplorer"
           target="_blank"
+          rel="noreferrer"
           className="hover:text-gray-500 md:px-2 block"
           onClick={handleCloseMenu}
         >
