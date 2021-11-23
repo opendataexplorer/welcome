@@ -32,7 +32,7 @@ export default function NavBar() {
           Alpha
         </a>
         <Link
-          to="/joinus"
+          to="/about"
           className="hover:text-gray-500 md:px-2 block"
           onClick={handleCloseMenu}
         >
