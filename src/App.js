@@ -8,6 +8,7 @@ import JoinUs from "!babel-loader!mdx-loader!./pages/join-us.mdx";
 import Home from "!babel-loader!mdx-loader!./pages/home.mdx";
 import About from "!babel-loader!mdx-loader!./pages/about.mdx";
 import Hero from "./Hero";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <PageLayout>
               <Hero />
               <Home />
+              <Newsletter />
             </PageLayout>
           }
         />
