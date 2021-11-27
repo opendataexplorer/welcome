@@ -23,15 +23,16 @@ export default function NavBar() {
         </button>
       </div>
       <div className={`md:flex ${menu && "hidden"}`}>
-        {/* <a
-          href="https://github.com/opendataexplorer"
+        <a
+          href="https://opendataexplorer-alpha.web.app/"
           target="_blank"
+          rel="noreferrer"
           className="hover:text-gray-500 md:px-2 block"
           onClick={handleCloseMenu}
         >
           Alpha
         </a>
-        <Link
+        {/* <Link
           to="/about"
           className="hover:text-gray-500 md:px-2 block"
           onClick={handleCloseMenu}
