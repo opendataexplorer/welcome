@@ -32,14 +32,14 @@ export default function NavBar() {
         >
           Alpha
         </a>
-        {/* <Link
+        <Link
           to="/about"
           className="hover:text-gray-500 md:px-2 block"
           onClick={handleCloseMenu}
         >
           About
         </Link>
-        <Link
+        {/* <Link
           to="/joinus"
           className="hover:text-gray-500 md:px-2 block"
           onClick={handleCloseMenu}

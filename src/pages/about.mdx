@@ -2,4 +2,170 @@
 title: About
 ---
 
-Governments around the world publish data that they can  
+## Mission
+
+Governments around the world publish open data: 
+structured, machine-readable, freely shared data 
+without restrictions on usage. This is really 
+great news, as open data can have
+tremendous benefits for society at large. 
+
+The trouble is, even the most common ways of 
+accessing open data typically require a high 
+degree of a mixture of data skills.
+
+At the minimum, a user of open data is expected to know:
+
+ 1. What data set would answer their question
+ 2. Where to find the data set amongst many disparate sources
+ 3. Searching through hundreds of tables in a repository
+ 4. Downloading the data set onto a computer
+ 5. Importing it into a program of choice (e.g. excel, R, Python, etc.)
+ 6. Understanding the structure of the data
+ 7. Transforming the data to fit the requirements of a graph
+ 8. Finding useful insights in the data
+
+Even seasoned data wranglers need to develop 
+workflows if they  want to use open data at scale. 
+
+The mission of the Open Data Explorer is to 
+minimize the barrier needed to get to the final 
+step: finding useful insights in open data. 
+
+## Current State of Open Data
+
+Most governments use the data management system 
+[CKAN](https://ckan.org/) to publish 
+and organize data and metadata. This is beneficial 
+to the power user, but out of reach for the 
+casual user of open data. 
+
+Although open data around the world is generally more or 
+less managed by CKAN, there are lots of 
+exceptions and modifications. In other words,
+there are no clear standards as to 
+the structure, content and publishing schedule
+of open data. This makes creating a unified 
+system of discovery and visual insights 
+particularly difficult. 
+
+Here are just some of the government open data sets available
+(many of them through CKAN):
+
+
+[BCLaws](http://www.bclaws.ca/civix/template/complete/api/index.html)                                         
+[Brazil](https://brasilapi.com.br/)                                                                           
+[Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/)                                             
+[Brazil Receita WS](https://www.receitaws.com.br/)                                                            
+[Brazilian Chamber of Deputies Open Data](https://dadosabertos.camara.leg.br/swagger/api.html)                
+[BusinessUSA](https://business.usa.gov/developer)                                                             
+[Census.gov](https://www.census.gov/data/developers/data-sets.html)                                           
+[City, Berlin](https://daten.berlin.de/)                                                                      
+[City, Gdańsk](https://ckan.multimediagdansk.pl/en)                                                           
+[City, Gdynia](http://otwartedane.gdynia.pl/en/api_doc.html)                                                  
+[City, Helsinki](https://hri.fi/en_gb/)                                                                       
+[City, Kyiv](https://data.kyivcity.gov.ua/)                                                                   
+[City, Lviv](https://opendata.city-adm.lviv.ua/)                                                              
+[City, Nantes Open Data](https://data.nantesmetropole.fr/pages/home/)                                         
+[City, New York Open Data](https://opendata.cityofnewyork.us/)                                                
+[City, Prague Open Data](http://opendata.praha.eu/en)                                                         
+[City, Toronto Open Data](https://open.toronto.ca/)                                                           
+[City, Warsaw Open Data](https://api.um.warszawa.pl/)                                                         
+[Code.gov](https://code.gov)                                                                                  
+[Colorado Information Marketplace](https://data.colorado.gov/)                                                
+[Data USA](https://datausa.io/about/api/)                                                                     
+[Data.gov](https://api.data.gov/)                                                                             
+[Data.parliament.uk](https://explore.data.parliament.uk/?learnmore=Members)                                   
+[Deutscher Bundestag DIP](https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf)           
+[District of Columbia Open Data](http://opendata.dc.gov/pages/using-apis)                                     
+[EPA](https://www.epa.gov/developers/data-data-products#apis)                                                 
+[FBI Wanted](https://www.fbi.gov/wanted/api)                                                                  
+[FEC](https://api.open.fec.gov/developers/)                                                                   
+[Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api)                  
+[Food Standards Agency](http://ratings.food.gov.uk/open-data/en-GB)                                           
+[Gazette Data, UK](https://www.thegazette.co.uk/data)                                                         
+[Gun Policy](https://www.gunpolicy.org/api)                                                                   
+[INEI](http://iinei.inei.gob.pe/microdatos/)                                                                  
+[Interpol Red Notices](https://interpol.api.bund.dev/)                                                        
+[Istanbul (İBB) Open Data](https://data.ibb.gov.tr)                                                           
+[Open Government, ACT](https://www.data.act.gov.au/)                                                          
+[Open Government, Argentina](https://datos.gob.ar/)                                                           
+[Open Government, Australia](https://www.data.gov.au/)                                                        
+[Open Government, Austria](https://www.data.gv.at/)                                                           
+[Open Government, Belgium](https://data.gov.be/)                                                              
+[Open Government, Brazil](https://www.dados.gov.br/)                                                          
+[Open Government, Canada](http://open.canada.ca/en)                                                           
+[Open Government, Colombia](https://www.dane.gov.co/)                                                         
+[Open Government, Croatia](https://data.gov.hr/en)                                                            
+[Open Government, Cyprus](https://data.gov.cy/?language=en)                                                   
+[Open Government, Czech Republic](https://data.gov.cz/english/)                                               
+[Open Government, Denmark](https://www.opendata.dk/)                                                          
+[Open Government, Estonia](https://avaandmed.eesti.ee/instructions/opendata-dataset-api)                      
+[Open Government, Finland](https://www.avoindata.fi/en)                                                       
+[Open Government, France](https://www.data.gouv.fr/)                                                          
+[Open Government, Germany](https://www.govdata.de/daten/-/details/govdata-metadatenkatalog)                   
+[Open Government, Greece](https://data.gov.gr/)                                                               
+[Open Government, India](https://data.gov.in/)                                                                
+[Open Government, Ireland](https://data.gov.ie/pages/developers)                                              
+[Open Government, Italy](https://www.dati.gov.it/)                                                            
+[Open Government, Korea](https://www.data.go.kr/)                                                             
+[Open Government, Lithuania](https://data.gov.lt/public/api/1)                                                
+[Open Government, Luxembourg](https://data.public.lu)                                                         
+[Open Government, Mexico](https://www.inegi.org.mx/datos/)                                                    
+[Open Government, Mexico](https://datos.gob.mx/)                                                              
+[Open Government, Netherlands](https://data.overheid.nl/en/ondersteuning/data-publiceren/api)                 
+[Open Government, New South Wales](https://api.nsw.gov.au/)                                                   
+[Open Government, New Zealand](https://www.data.govt.nz/)                                                     
+[Open Government, Norway](https://data.norge.no/dataservices)                                                 
+[Open Government, Peru](https://www.datosabiertos.gob.pe/)                                                    
+[Open Government, Poland](https://dane.gov.pl/en)                                                             
+[Open Government, Portugal](https://dados.gov.pt/en/docapi/)                                                  
+[Open Government, Queensland Government](https://www.data.qld.gov.au/)                                        
+[Open Government, Romania](http://data.gov.ro/)                                                               
+[Open Government, Russia](https://data.gov.ru/?language=en)                                                   
+[Open Government, Saudi Arabia](https://data.gov.sa)                                                          
+[Open Government, Singapore](https://data.gov.sg/developer)                                                   
+[Open Government, Slovakia](https://data.gov.sk/en/)                                                          
+[Open Government, Slovenia](https://podatki.gov.si/)                                                          
+[Open Government, South Australian Government](https://data.sa.gov.au/)                                       
+[Open Government, Spain](https://datos.gob.es/en)                                                             
+[Open Government, Sweden](https://www.dataportal.se/en/dataservice/91_29789/api-for-the-statistical-database) 
+[Open Government, Switzerland](https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html)             
+[Open Government, Taiwan](https://data.gov.tw/)                                                               
+[Open Government, Thailand](https://data.go.th/)                                                              
+[Open Government, UK](https://data.gov.uk/)                                                                   
+[Open Government, Ukraine](https://data.gov.ua/)                                                              
+[Open Government, USA](https://www.data.gov/)                                                                 
+[Open Government, Victoria State Government](https://www.data.vic.gov.au/)                                    
+[Open Government, West Australia](https://data.wa.gov.au/)                                                    
+[Represent by Open North](https://represent.opennorth.ca/)                                                    
+[UK Companies House](https://developer.company-information.service.gov.uk/)                                   
+[UK government API catalogue](https://alphagov.github.io/api-catalogue)                                       
+[US Presidential Election Data by TogaTech](https://uselection.togatech.org/api/)                             
+[USAspending.gov](https://api.usaspending.gov/)                                                               
+
+(A big thank you to the [Source](https://github.com/public-apis/public-apis/blob/master/README.md))
+
+This is why we chose to start with 
+open data from [Statistics Canada](https://www150.statcan.gc.ca/n1/en/type/data?MM=1): a data source
+that is consistently structured, well-documented
+and comes with an API for machine interaction. 
+This makes it easy as a starting point. 
+All the data sources in the Alpha come from 
+Statistics Canada Open Data. 
+
+## Next Steps
+
+### Build a Community
+
+We want to build a community of open data users
+to guide the process of creating a friendly 
+and intuitive UI that includes all the
+information they need to discover new datasets
+and find insights. 
+
+### Continue improving Alpha
+
+The Alpha is crude but designed to show what is 
+possible. Making adjustments will be beneficial 
+in testing new ideas in discovery and visualization.

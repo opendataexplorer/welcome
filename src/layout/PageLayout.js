@@ -9,9 +9,13 @@ export default function PageLayout({ children }) {
                 components={{
                     h1: PageDesign.h1,
                     h2: PageDesign.h2,
+                    h3: PageDesign.h3,
                     p: PageDesign.p,
-                    a: PageDesign.a
-                }}>
+                    a: PageDesign.a,
+                    ol: PageDesign.ol,
+                    li: PageDesign.li
+                }}
+                >
                 {children}
             </MDXProvider>
         </div>
